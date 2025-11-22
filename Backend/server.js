@@ -105,3 +105,9 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 >>>>>>> d0c79d1afb8614dbd05156f0fe58713cf9719ffe
 });
+
+
+
+// For Course Routes (dont fkn delete it)
+const courseRoutes = require("./routes/courseRoutes");
+app.use("/api/courses", courseRoutes);
